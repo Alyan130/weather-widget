@@ -111,7 +111,7 @@ return (
   <div className="flex flex-col items-center justify-center h-screen">
     <Card className="max-w-md mx-auto p-4 shadow-lg rounded-lg bg-white">
       <CardHeader className="text-center">
-        <CardTitle className="text-2xl font-bold">Weather Widget</CardTitle>
+        <CardTitle className="text-2xl font-bold">Weather App</CardTitle>
         <CardDescription className="text-gray-600">Enter a location to get the current weather.</CardDescription>
       </CardHeader>
       <CardContent>
