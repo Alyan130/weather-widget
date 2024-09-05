@@ -99,11 +99,11 @@ export default function WeatherWidget() {
 
 const getLocationMessage=(location:string):string=>{
   const hour=new Date().getHours();
-  if(hour>=5 && hour<12){
-    return `${location} in morning.`
+  if(hour>=18 && hour<6){
+    return `${location} at night.`
   }
   else{
-    return `${location} at night.`
+    return `${location} during the day.`
   }
 }
 
